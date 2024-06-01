@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0be124e-4dc9-4094-9d31-5cefa2e3c516" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise/AnagramExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise/AnagramGpt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise/NetflixExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise/GroupAnagram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practise/AnagramExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/practise/AnagramExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +51,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AnagramExample.executor": "Run",
+    "Application.AnagramGpt.executor": "Run",
     "Application.ComplexStreamExample.executor": "Run",
     "Application.CountAndJoin.executor": "Run",
     "Application.CustomCollectorExample.executor": "Run",
@@ -62,7 +62,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.AnagramGpt">
+  <component name="RunManager" selected="Application.GroupAnagram">
     <configuration name="AnagramExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.practise.AnagramExample" />
       <module name="dataStructures" />
@@ -102,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomCollectorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.practise.CustomCollectorExample" />
+    <configuration name="GroupAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.practise.GroupAnagram" />
       <module name="dataStructures" />
       <extension name="coverage">
         <pattern>
@@ -130,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AnagramGpt" />
+        <item itemvalue="Application.GroupAnagram" />
         <item itemvalue="Application.AnagramExample" />
         <item itemvalue="Application.NetflixExample" />
+        <item itemvalue="Application.AnagramGpt" />
         <item itemvalue="Application.CountAndJoin" />
-        <item itemvalue="Application.CustomCollectorExample" />
       </list>
     </recent_temporary>
   </component>

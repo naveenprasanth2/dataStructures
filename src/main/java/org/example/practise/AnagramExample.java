@@ -4,7 +4,7 @@ import java.util.*;
 
 public class AnagramExample {
     public static void main(String[] args) {
-        List<String> words = Arrays.asList("eat", "tea", "tan", "ate", "nat", "bat");
+        List<String> words = new ArrayList<>(Arrays.asList("eat", "tea", "tan", "ate", "nat", "bat"));
         List<List<String>> groupedAnagrams = groupAnagrams(words);
         System.out.println(groupedAnagrams);
         // Output: [[eat, tea, ate], [tan, nat], [bat]]
@@ -19,7 +19,7 @@ public class AnagramExample {
             for (int j = i + 1; j < words.size(); j++){
                 List<String> jList = Arrays.stream(words.get(j).split("")).sorted().toList();
                 if (iList.equals(jList)){
-                    tempList.add(words.get(j));
+                    tempList.add(words.remove(j));
                 }
             }
             Collections.sort(tempList);
