@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0be124e-4dc9-4094-9d31-5cefa2e3c516" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise/GroupAnagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise/GroupAnagram1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practise/AnagramExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/practise/AnagramExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practise/GroupAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/practise/GroupAnagram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +55,8 @@
     "Application.ComplexStreamExample.executor": "Run",
     "Application.CountAndJoin.executor": "Run",
     "Application.CustomCollectorExample.executor": "Run",
+    "Application.GroupAnagram.executor": "Run",
+    "Application.GroupAnagram1.executor": "Run",
     "Application.NetflixExample.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -62,7 +64,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.GroupAnagram">
+  <component name="RunManager" selected="Application.GroupAnagram1">
     <configuration name="AnagramExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.practise.AnagramExample" />
       <module name="dataStructures" />
@@ -89,8 +91,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountAndJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.practise.CountAndJoin" />
+    <configuration name="GroupAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.practise.GroupAnagram" />
       <module name="dataStructures" />
       <extension name="coverage">
         <pattern>
@@ -102,8 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.practise.GroupAnagram" />
+    <configuration name="GroupAnagram1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.practise.GroupAnagram1" />
       <module name="dataStructures" />
       <extension name="coverage">
         <pattern>
@@ -130,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GroupAnagram1" />
         <item itemvalue="Application.GroupAnagram" />
         <item itemvalue="Application.AnagramExample" />
         <item itemvalue="Application.NetflixExample" />
         <item itemvalue="Application.AnagramGpt" />
-        <item itemvalue="Application.CountAndJoin" />
       </list>
     </recent_temporary>
   </component>
