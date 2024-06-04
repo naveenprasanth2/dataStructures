@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0be124e-4dc9-4094-9d31-5cefa2e3c516" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise/GroupAnagram1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise/FindFrequency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise/FindTriplet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practise/GroupAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/practise/GroupAnagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +56,7 @@
     "Application.ComplexStreamExample.executor": "Run",
     "Application.CountAndJoin.executor": "Run",
     "Application.CustomCollectorExample.executor": "Run",
+    "Application.FindTriplet.executor": "Run",
     "Application.GroupAnagram.executor": "Run",
     "Application.GroupAnagram1.executor": "Run",
     "Application.NetflixExample.executor": "Run",
@@ -64,7 +66,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.GroupAnagram1">
+  <component name="RunManager" selected="Application.FindFrequency">
     <configuration name="AnagramExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.practise.AnagramExample" />
       <module name="dataStructures" />
@@ -78,8 +80,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnagramGpt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.practise.AnagramGpt" />
+    <configuration name="FindFrequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.practise.FindFrequency" />
+      <module name="dataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.practise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindTriplet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.practise.FindTriplet" />
       <module name="dataStructures" />
       <extension name="coverage">
         <pattern>
@@ -117,26 +132,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NetflixExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.practise.NetflixExample" />
-      <module name="dataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.practise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindFrequency" />
+        <item itemvalue="Application.FindTriplet" />
         <item itemvalue="Application.GroupAnagram1" />
         <item itemvalue="Application.GroupAnagram" />
         <item itemvalue="Application.AnagramExample" />
-        <item itemvalue="Application.NetflixExample" />
-        <item itemvalue="Application.AnagramGpt" />
       </list>
     </recent_temporary>
   </component>
