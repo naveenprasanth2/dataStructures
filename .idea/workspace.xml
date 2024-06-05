@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0be124e-4dc9-4094-9d31-5cefa2e3c516" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise/FindFrequency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise/FindTriplet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise/FindDuplicates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +54,8 @@
     "Application.ComplexStreamExample.executor": "Run",
     "Application.CountAndJoin.executor": "Run",
     "Application.CustomCollectorExample.executor": "Run",
+    "Application.FindDuplicates.executor": "Run",
+    "Application.FindFrequency.executor": "Run",
     "Application.FindTriplet.executor": "Run",
     "Application.GroupAnagram.executor": "Run",
     "Application.GroupAnagram1.executor": "Run",
@@ -66,9 +66,9 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FindFrequency">
-    <configuration name="AnagramExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.practise.AnagramExample" />
+  <component name="RunManager" selected="Application.FindDuplicates">
+    <configuration name="FindDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.practise.FindDuplicates" />
       <module name="dataStructures" />
       <extension name="coverage">
         <pattern>
@@ -134,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindDuplicates" />
         <item itemvalue="Application.FindFrequency" />
         <item itemvalue="Application.FindTriplet" />
         <item itemvalue="Application.GroupAnagram1" />
         <item itemvalue="Application.GroupAnagram" />
-        <item itemvalue="Application.AnagramExample" />
       </list>
     </recent_temporary>
   </component>
